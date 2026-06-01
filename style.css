@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.head-section{
+    background: black;
+    height: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.head-section a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.head-section a:hover{
+    color: antiquewhite;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    transition: 0.3s;
+}
